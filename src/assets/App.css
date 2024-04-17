@@ -1,0 +1,165 @@
+header {
+    display: flex;
+    place-items: center;
+    padding-right: calc(var(--section-gap) / 2);
+    margin-bottom : 4rem;
+    line-height: 1.5;
+    background-color: #e3e7e8;
+    margin-right: 0rem;
+  }
+
+  .firsthead{
+    display:flex;
+    align-items: center;
+  }
+  header img{
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .titlehead h1{
+    font-size: 3rem;
+  }
+
+  .titlehead h2{
+    font-size: 1.5rem;
+    width: 18rem;
+    font-style : italic;
+    margin-top: -1rem;
+  }
+  /* .logo {
+    margin: 0 2rem 0 0;
+  } */
+
+  header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+ .wave{
+  display:none;
+ }
+
+footer{
+    line-height: 1.5;
+    background-color: #e3e7e8;
+}
+
+.IMAC{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoIMAC{
+  width: 7rem;
+  margin-top: 0.5rem;
+}
+
+.IMAC p{
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+
+
+/* IPAD  */
+@media screen and (min-width:768px){
+
+  header{
+    justify-content: space-between;
+  }
+
+  header img{
+    width: 12rem;
+    height: 12rem;
+    margin-right: 0rem;
+  }
+
+  .titlehead h1{
+    font-size: 4rem;
+  }
+
+  .titlehead h2{
+    font-size: 2rem;
+    width : 22rem;
+  }
+
+  .wave{
+    display:flex;
+  }
+
+  .wave img{
+    width: 15rem;
+  }
+
+  .logoIMAC{
+    width: 10rem;
+    margin-top: 2rem;
+  }
+  .IMAC p{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+}
+/*1280px*/
+
+@media screen and (min-width:1280px){
+  header img{
+    width: 15rem;
+    height: 15rem;
+  }
+  .titlehead h1{
+    font-size : 4.5rem;
+  }
+
+  .wave img{
+    width: 24rem;
+  }
+  .IMAC{
+    margin-top: 7rem;
+  }
+  .logoIMAC{
+    width: 11rem;
+  }
+  
+  .IMAC p{
+    font-size: 2.2rem;
+  }
+ 
+}
+
+/* 1920px */
+@media screen and (min-width:1920px){
+
+  .firsthead{
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+  }
+  header img{
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .titlehead h1{
+    font-size: 5.5rem;
+  }
+
+  .titlehead h2{
+    font-size: 3rem;
+      width: 33rem;
+  }
+
+  .IMAC{
+    margin-top: 4rem;
+  }
+
+  .logoIMAC{
+    width: 16rem;
+  }
+
+  .IMAC p{
+    font-size: 3rem;
+  }
+}

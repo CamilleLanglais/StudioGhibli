@@ -1,0 +1,43 @@
+.back {
+    margin-bottom: 3rem;
+    padding: 3rem 7vw;
+}
+.back form{
+    margin: 0 0 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.back input{
+    font-size: 1.8rem;
+    border: 1px solid rgb(173, 173, 173);
+    transition: border 0.7s;
+    margin-right: 0.5rem;
+}
+.back input:focus-visible{
+    border: 1px solid #000;
+    outline: none;
+    
+}
+
+.back button{
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: background-color 0.7s, color 0.7s;
+}
+
+
+@media screen and (min-width:1280px){
+    .back button:hover, .back button:hover{
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+    }
+
+}
